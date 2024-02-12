@@ -20,9 +20,14 @@ Edit EXAMPLE_contact_data.txt with the following format and change the name of t
 ]
 
 
-You can send emails with the subject "Interaction Update" and the following content:
+You can send emails with the subject "Interaction Update" and the following content (meaning you have):
 ```
 John Doe
 yes
 2024-02-18  # Optional: Set a specific date for the next interaction
+```
+
+or (meaning you haven't yet)
+```Jane Smith
+no
 ```
