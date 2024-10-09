@@ -181,7 +181,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### **Dashboard**
 
-![Dashboard](./screenshot/dashboard.png)
+![Dashboard](./screenshots/dashboard.png)
 
 ### **Add Contact**
 
