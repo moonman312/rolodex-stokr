@@ -169,19 +169,23 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### **Home Page**
 
-![Home Page](https://user-images.githubusercontent.com/yourusername/yourrepo/home.png)
+![Home Page](./screenshots/homepage.png)
 
 ### **Registration Page**
 
-![Registration Page](https://user-images.githubusercontent.com/yourusername/yourrepo/register.png)
+![Registration Page](./screenshots/register.png)
+
+### **Login**
+
+![Login](./screenshots/login.png)
 
 ### **Dashboard**
 
-![Dashboard](https://user-images.githubusercontent.com/yourusername/yourrepo/dashboard.png)
+![Dashboard](./screenshot/dashboard.png)
 
 ### **Add Contact**
 
-![Add Contact](https://user-images.githubusercontent.com/yourusername/yourrepo/add_contact.png)
+![Add Contact](./screenshots/add_contact.png)
 
 ---
 
@@ -246,8 +250,8 @@ This project is licensed under the GNU License - see the [LICENSE](LICENSE) file
 
 - **Jake**
 - **Email**: [rolodex.stokr@gmail.com](mailto:rolodex.stokr@gmail.com)
-- **GitHub**: [yourusername](https://github.com/moonman312)
-- **LinkedIn**: [Your Name](https://www.linkedin.com/in/jrmooney)
+- **GitHub**: [moonman312](https://github.com/moonman312)
+- **LinkedIn**: [Profile](https://www.linkedin.com/in/jrmooney)
 
 ---
 
