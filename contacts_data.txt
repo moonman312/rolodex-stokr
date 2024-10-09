@@ -1,0 +1,1 @@
+[{'name': 'John Doe', 'frequency': 7, 'last_interaction': '2024-02-02', 'next_interaction': '2024-02-09'}, {'name': 'Jane Smith', 'frequency': 14, 'last_interaction': '2024-01-10', 'next_interaction': '2024-01-24'}, {'name': 'Bob Johnson', 'frequency': 30, 'last_interaction': '2024-02-12', 'next_interaction': '2024-03-13'}]

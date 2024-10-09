@@ -154,6 +154,7 @@ cython_debug/
 
 #other
 config.py
+contact_data.txt
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
