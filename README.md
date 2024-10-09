@@ -16,7 +16,7 @@ This is a personal project for my own utility, but if you have the same struggle
 > **Stay connected with the people who matter most.**  
 > Rolodex Stokr is a personal relationship manager that helps you keep in touch with your contacts effortlessly.
 
-<!-- ![Rolodex Stokr Banner](https://user-images.githubusercontent.com/yourusername/yourrepo/banner.png) -->
+<!-- ![Rolodex Stokr Banner](https://user-images.githubusercontent.com/moonman312/yourrepo/banner.png) -->
 
 ---
 
@@ -213,7 +213,7 @@ Contributions are welcome! Please follow these steps:
 2. **Clone Your Fork**
 
    ~~~bash
-   git clone https://github.com/yourusername/rolodex-stokr.git
+   git clone https://github.com/moonman312/rolodex-stokr.git
    ~~~
 
 3. **Create a Feature Branch**
@@ -268,7 +268,7 @@ This project is licensed under the GNU License - see the [LICENSE](LICENSE) file
 
 If you found this project helpful or interesting, please give it a star ⭐ on GitHub. It helps others discover it and motivates me to continue working on it.
 
-[![Stargazers repo roster for @yourusername/rolodex-stokr](https://reporoster.com/stars/yourusername/rolodex-stokr)](https://github.com/yourusername/rolodex-stokr/stargazers)
+[![Stargazers repo roster for @moonman312/rolodex-stokr](https://reporoster.com/stars/moonman312/rolodex-stokr)](https://github.com/moonman312/rolodex-stokr/stargazers)
 
 ---
 
