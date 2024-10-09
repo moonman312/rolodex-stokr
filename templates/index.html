@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h1 class="text-center">Welcome to Rolodex Stokr</h1>
+        {% if current_user.is_authenticated %}
+            <p class="text-center">Hello, {{ current_user.name }}!</p>
+            <div class="text-center">
+                <a href="{{ url_for('dashboard') }}" class="btn btn-primary">Go to Dashboard</a>
+                <a href="{{ url_for('logout') }}" class="btn btn-secondary">Logout</a>
+            </div>
+        {% else %}
+            <div class="text-center">
+                <a href="{{ url_for('login') }}" class="btn btn-primary">Login</a>
+                <span>or</span>
+                <a href="{{ url_for('register') }}" class="btn btn-success">Register</a>
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}
