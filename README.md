@@ -6,28 +6,75 @@ I want to build some kind of super simple personal tool or something super simpl
 This is a personal project for my own utility, but if you have the same struggle, feel free to clone it
 
 
-## Set Up
-crontab -e
-to run the script at 9am every morning:
-```0 9 * * * /usr/bin/python3 /path/to/your/script.py```
+# Rolodex Stokr 📇🔥
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://www.python.org/downloads/)
+[![Flask](https://img.shields.io/badge/Flask-1.1.2-green.svg)](https://flask.palletsprojects.com/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-4.5.0-purple.svg)](https://getbootstrap.com/)
 
-Edit EXAMPLE_contact_data.txt with the following format and change the name of the file to contact_data.txt
-[
-  {"name": "John Doe", "frequency": 7, "last_interaction": "2024-02-10", "next_interaction": "2024-02-17"},
-  {"name": "Jane Smith", "frequency": 14, "last_interaction": "2024-02-08", "next_interaction": "2024-02-22"},
-  {"name": "Bob Johnson", "frequency": 30, "last_interaction": "2024-02-05", "next_interaction": "2024-03-06"}
-]
+> **Stay connected with the people who matter most.**  
+> Rolodex Stokr is a personal relationship manager that helps you keep in touch with your contacts effortlessly.
 
+![Rolodex Stokr Banner](https://user-images.githubusercontent.com/yourusername/yourrepo/banner.png)
 
-You can send emails with the subject "Interaction Update" and the following content (meaning you have):
-```
-John Doe
-yes
-2024-02-18  # Optional: Set a specific date for the next interaction
-```
+---
 
-or (meaning you haven't yet)
-```Jane Smith
-no
-```
+## Table of Contents
+
+- [Features](#features)
+- [Demo](#demo)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Configuration](#configuration)
+  - [Running the Application](#running-the-application)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Built With](#built-with)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
+
+---
+
+## Features
+
+- **User Authentication**: Secure registration and login system.
+- **Contact Management**: Add, edit, and delete contacts with personalized notes.
+- **Reminder Scheduling**: Set interaction frequencies and receive email reminders.
+- **Responsive Design**: Clean and modern UI with Bootstrap, optimized for all devices.
+- **Email Notifications**: Automated emails to remind you of overdue interactions.
+- **Customization**: Easily adjust reminder settings and contact information.
+- **Scheduler**: Background task scheduler to handle reminders efficiently.
+
+---
+
+## Demo
+
+🚀 **Live Demo**: *Coming Soon*
+
+*Note: A live demo will be available once deployed. Stay tuned!*
+
+---
+
+## Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+- **Python 3.6+**
+- **pip** (Python package manager)
+- **Virtual Environment** (recommended)
+- **An Email Account** (Gmail recommended for SMTP)
+- **Optional**: Twilio Account for SMS reminders
+
+### Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/rolodex-stokr.git
+   cd rolodex-stokr
