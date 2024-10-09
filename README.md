@@ -75,6 +75,255 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. **Clone the Repository**
 
-   ```bash
+   ~~~bash
    git clone https://github.com/yourusername/rolodex-stokr.git
    cd rolodex-stokr
+   ~~~
+
+2. **Create a Virtual Environment**
+
+    ~~~bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ~~~
+
+3. **Install Dependencies**
+
+    ~~~bash
+    pip install -r requirements.txt
+    ~~~
+
+### Configuration
+
+1. **Create `config.py`**
+
+   In the project root directory, create a file named `config.py` and add the following configuration variables:
+
+   ~~~python
+   # config.py
+
+   # Email credentials
+   sender_email_address = 'your_email@example.com'     # Replace with your email
+   app_password = 'your_email_app_password'            # Replace with your email app password
+
+   # Twilio credentials (Optional)
+   TWILIO_ACCOUNT_SID = 'your_twilio_account_sid'      # Replace with your Twilio Account SID
+   TWILIO_AUTH_TOKEN = 'your_twilio_auth_token'        # Replace with your Twilio Auth Token
+   TWILIO_PHONE_NUMBER = 'your_twilio_phone_number'    # Replace with your Twilio Phone Number
+   ~~~
+
+   **Note**: For Gmail users, you might need to enable [App Passwords](https://support.google.com/accounts/answer/185833) if you have 2-Step Verification enabled.
+
+2. **Set Up the Database**
+
+   The application uses SQLite for simplicity.
+
+   ~~~bash
+   python app.py
+   ~~~
+
+   This will create `database.db` in your project directory.
+
+### Running the Application
+
+1. **Start the Flask Development Server**
+
+   ~~~bash
+   python app.py
+   ~~~
+
+2. **Access the Application**
+
+   Open your browser and navigate to: [http://localhost:5000](http://localhost:5000)
+
+---
+
+## Usage
+
+1. **Register an Account**
+
+   - Click on the **Register** button.
+   - Fill in your name, email, and password.
+
+2. **Log In**
+
+   - Use your registered email and password to log in.
+
+3. **Add Contacts**
+
+   - Navigate to the **Dashboard**.
+   - Click on **Add Contact**.
+   - Enter the contact's details, including name, notes, reminder frequency, and contact information.
+
+4. **Manage Contacts**
+
+   - View your contacts in the dashboard.
+   - Edit or delete contacts as needed.
+
+5. **Receive Reminders**
+
+   - The app will send email reminders based on the interaction frequency you've set for each contact.
+   - **Note**: For testing purposes, you can adjust the scheduler timing in `app.py`.
+
+---
+
+## Screenshots
+
+### **Home Page**
+
+![Home Page](https://user-images.githubusercontent.com/yourusername/yourrepo/home.png)
+
+### **Registration Page**
+
+![Registration Page](https://user-images.githubusercontent.com/yourusername/yourrepo/register.png)
+
+### **Dashboard**
+
+![Dashboard](https://user-images.githubusercontent.com/yourusername/yourrepo/dashboard.png)
+
+### **Add Contact**
+
+![Add Contact](https://user-images.githubusercontent.com/yourusername/yourrepo/add_contact.png)
+
+---
+
+## Built With
+
+- [Python](https://www.python.org/) - The programming language used.
+- [Flask](https://flask.palletsprojects.com/) - Micro web framework.
+- [Flask-Login](https://flask-login.readthedocs.io/en/latest/) - User session management.
+- [Flask-Mail](https://pythonhosted.org/Flask-Mail/) - Email support.
+- [Flask-APScheduler](https://flask-apscheduler.readthedocs.io/en/latest/) - Scheduler for automated tasks.
+- [SQLite](https://www.sqlite.org/index.html) - Lightweight database.
+- [Bootstrap](https://getbootstrap.com/) - Front-end component library.
+- [Jinja2](https://jinja.palletsprojects.com/) - Templating engine.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. **Fork the Repository**
+
+   Click the "Fork" button on the top right to create your own copy of the repository.
+
+2. **Clone Your Fork**
+
+   ~~~bash
+   git clone https://github.com/yourusername/rolodex-stokr.git
+   ~~~
+
+3. **Create a Feature Branch**
+
+   ~~~bash
+   git checkout -b feature/YourFeature
+   ~~~
+
+4. **Commit Your Changes**
+
+   ~~~bash
+   git commit -am 'Add some feature'
+   ~~~
+
+5. **Push to the Branch**
+
+   ~~~bash
+   git push origin feature/YourFeature
+   ~~~
+
+6. **Create a Pull Request**
+
+   Open a pull request from your forked repository's feature branch to the main branch of the original repository.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contact
+
+- **Your Name**
+- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **GitHub**: [yourusername](https://github.com/yourusername)
+- **LinkedIn**: [Your Name](https://www.linkedin.com/in/yourprofile)
+
+---
+
+## Acknowledgments
+
+- **Flask Documentation**: [Flask Official Docs](https://flask.palletsprojects.com/)
+- **Bootstrap Templates**: [Start Bootstrap](https://startbootstrap.com/)
+- **Icons**: [Font Awesome](https://fontawesome.com/)
+- **Background Image**: [Unsplash](https://unsplash.com/)
+
+---
+
+## 🌟 Star this Project
+
+If you found this project helpful or interesting, please give it a star ⭐ on GitHub. It helps others discover it and motivates me to continue working on it.
+
+[![Stargazers repo roster for @yourusername/rolodex-stokr](https://reporoster.com/stars/yourusername/rolodex-stokr)](https://github.com/yourusername/rolodex-stokr/stargazers)
+
+---
+
+## Support
+
+If you have any questions, issues, or suggestions, please open an issue on the [GitHub repository](https://github.com/yourusername/rolodex-stokr/issues).
+
+---
+
+## Emojis in Action 🎉
+
+- **Stay Connected**: Never forget to reach out to your friends and family! 🤗
+- **Be Organized**: Keep all your contacts and reminders in one place. 📋
+- **Effortless Communication**: Let the app do the reminding while you focus on building relationships. 🗣️
+
+---
+
+## Fun with Markdown 📝
+
+Here's a sneak peek into some cool Markdown tricks used in this README:
+
+- **Tables for Organization**
+
+  | Feature             | Description                           |
+  | ------------------- | ------------------------------------- |
+  | **User Auth**       | Secure login and registration         |
+  | **Contact Manager** | CRUD operations on contacts           |
+  | **Reminders**       | Automated email reminders             |
+  | **Responsive UI**   | Mobile-friendly design with Bootstrap |
+
+- **Code Snippets**
+
+  ~~~python
+  if __name__ == '__main__':
+      with app.app_context():
+          db.create_all()
+      app.run(debug=True)
+  ~~~
+
+- **Blockquotes for Emphasis**
+
+  > "The most important thing in communication is hearing what isn't said."  
+  > — **Peter Drucker**
+
+- **Badges for Visual Appeal**
+
+  ![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)
+  ![Flask](https://img.shields.io/badge/Flask-1.1.2-green.svg)
+
+- **Emojis for Fun**
+
+  🎉 🚀 💡 📱 🛠️
+
+---
+
+## Footer
+
+*Made with ❤️ by [Your Name](https://github.com/yourusername)*
+
+---
