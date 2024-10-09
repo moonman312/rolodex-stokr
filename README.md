@@ -16,7 +16,7 @@ This is a personal project for my own utility, but if you have the same struggle
 > **Stay connected with the people who matter most.**  
 > Rolodex Stokr is a personal relationship manager that helps you keep in touch with your contacts effortlessly.
 
-![Rolodex Stokr Banner](https://user-images.githubusercontent.com/yourusername/yourrepo/banner.png)
+<!-- ![Rolodex Stokr Banner](https://user-images.githubusercontent.com/yourusername/yourrepo/banner.png) -->
 
 ---
 
@@ -43,11 +43,9 @@ This is a personal project for my own utility, but if you have the same struggle
 
 - **User Authentication**: Secure registration and login system.
 - **Contact Management**: Add, edit, and delete contacts with personalized notes.
-- **Reminder Scheduling**: Set interaction frequencies and receive email reminders.
-- **Responsive Design**: Clean and modern UI with Bootstrap, optimized for all devices.
-- **Email Notifications**: Automated emails to remind you of overdue interactions.
+- **Reminder Scheduling**: Set interaction frequencies and receive email and text message reminders.
+- **Responsive Design**: Clean and simple UI with Bootstrap, optimized for readability and simplicity.
 - **Customization**: Easily adjust reminder settings and contact information.
-- **Scheduler**: Background task scheduler to handle reminders efficiently.
 
 ---
 
@@ -76,7 +74,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. **Clone the Repository**
 
    ~~~bash
-   git clone https://github.com/yourusername/rolodex-stokr.git
+   git clone https://github.com/moonman312/rolodex-stokr.git
    cd rolodex-stokr
    ~~~
 
@@ -246,10 +244,10 @@ This project is licensed under the GNU License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-- **Your Name**
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **GitHub**: [yourusername](https://github.com/yourusername)
-- **LinkedIn**: [Your Name](https://www.linkedin.com/in/yourprofile)
+- **Jake**
+- **Email**: [rolodex.stokr@gmail.com](mailto:rolodex.stokr@gmail.com)
+- **GitHub**: [yourusername](https://github.com/moonman312)
+- **LinkedIn**: [Your Name](https://www.linkedin.com/in/jrmooney)
 
 ---
 
@@ -272,58 +270,12 @@ If you found this project helpful or interesting, please give it a star ⭐ on G
 
 ## Support
 
-If you have any questions, issues, or suggestions, please open an issue on the [GitHub repository](https://github.com/yourusername/rolodex-stokr/issues).
-
----
-
-## Emojis in Action 🎉
-
-- **Stay Connected**: Never forget to reach out to your friends and family! 🤗
-- **Be Organized**: Keep all your contacts and reminders in one place. 📋
-- **Effortless Communication**: Let the app do the reminding while you focus on building relationships. 🗣️
-
----
-
-## Fun with Markdown 📝
-
-Here's a sneak peek into some cool Markdown tricks used in this README:
-
-- **Tables for Organization**
-
-  | Feature             | Description                           |
-  | ------------------- | ------------------------------------- |
-  | **User Auth**       | Secure login and registration         |
-  | **Contact Manager** | CRUD operations on contacts           |
-  | **Reminders**       | Automated email reminders             |
-  | **Responsive UI**   | Mobile-friendly design with Bootstrap |
-
-- **Code Snippets**
-
-  ~~~python
-  if __name__ == '__main__':
-      with app.app_context():
-          db.create_all()
-      app.run(debug=True)
-  ~~~
-
-- **Blockquotes for Emphasis**
-
-  > "The most important thing in communication is hearing what isn't said."  
-  > — **Peter Drucker**
-
-- **Badges for Visual Appeal**
-
-  ![Python](https://img.shields.io/badge/python-3.6%2B-blue.svg)
-  ![Flask](https://img.shields.io/badge/Flask-1.1.2-green.svg)
-
-- **Emojis for Fun**
-
-  🎉 🚀 💡 📱 🛠️
+If you have any questions, issues, or suggestions, please open an issue on the [GitHub repository](https://github.com/moonman312/rolodex-stokr/issues).
 
 ---
 
 ## Footer
 
-*Made with ❤️ by [Your Name](https://github.com/yourusername)*
+*Made out of frustration 😖 by [Jake](https://github.com/moonman312)*
 
 ---
